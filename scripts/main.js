@@ -3,8 +3,8 @@ let btn_search = document.getElementById("search")
 let list_cities = document.getElementById("list_cities")
 let weather_container = document.getElementById("weather_container")
 let city_conteiner = document.getElementById("city_conteiner")
-let url_search_city = `http://api.weatherapi.com/v1/search.json?key=571dca4c5ac842b093962531252904`
-let url_search_weather = `http://api.weatherapi.com/v1/forecast.json?key=571dca4c5ac842b093962531252904&days=14`
+let url_search_city = `https://api.weatherapi.com/v1/search.json?key=571dca4c5ac842b093962531252904`
+let url_search_weather = `https://api.weatherapi.com/v1/forecast.json?key=571dca4c5ac842b093962531252904&days=14`
 
 function search_weather() {
     let city = input_city.value
